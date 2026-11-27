@@ -1,0 +1,17 @@
+{
+  "name": "HeaderBomb",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "HeaderBomb": { "$path": "src/shared" }
+    },
+    "ServerScriptService": {
+      "HeaderBombServer": { "$path": "src/server" }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "HeaderBombClient": { "$path": "src/client" }
+      }
+    }
+  }
+}
